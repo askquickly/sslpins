@@ -5,7 +5,6 @@ import anywheresoftware.b4a.BA.ShortName;
 import anywheresoftware.b4a.BA.Version;
 import anywheresoftware.b4a.BA.Author;
 import anywheresoftware.b4a.BA.Hide;
-import anywheresoftware.b4a.BA.Events;
 
 import okhttp3.CertificatePinner;
 import okhttp3.*;
@@ -16,7 +15,7 @@ import okhttp3.*;
 
 public class SSLPins{
   
-  public String doCheck(String url, String key){
+  public string doCheck(String url, String key){
        String hostname = "publicobject.com";
       CertificatePinner certificatePinner = new CertificatePinner.Builder()
         //  sha256/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
