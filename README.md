@@ -1,6 +1,6 @@
 ## SSL Pinning
 
-AndroidPinning is a standalone Android B4A library project that facilitates certificate pinning for SSL connections from Android apps, in order to minimize dependence on Certificate Authorities.
+SSLPins is a standalone Android B4A library project that facilitates certificate pinning for SSL connections from Android apps, in order to minimize dependence on Certificate Authorities.
 
 CA signatures are necessary for general purpose network communication tools: things like web browsers, which connect to arbitrary network endpoints and have no advance knowledge of what the SSL certificates for those endpoint should look like.
 
