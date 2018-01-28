@@ -1,4 +1,4 @@
-#SSL Pinning
+## SSL Pinning
 
 AndroidPinning is a standalone Android library project that facilitates certificate pinning for SSL connections from Android apps, in order to minimize dependence on Certificate Authorities.
 
