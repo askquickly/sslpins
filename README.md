@@ -22,7 +22,7 @@ requester.initialize("ssl", "sha256/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
 ## Check and request (GET/POST)
 
 ```
-requester.Get("server.com/response.json")
+requester.doGetRequest("server.com/response.json")
 ```
 
 ## Event Response
