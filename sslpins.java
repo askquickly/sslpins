@@ -11,17 +11,15 @@ import okhttp3.Response;
 import okhttp3.CertificatePinner;
 
 import anywheresoftware.b4a.BA;
-import anywheresoftware.b4a.IOnActivityResult;
 import anywheresoftware.b4a.BA.DependsOn;
 import anywheresoftware.b4a.BA.Events;
 import anywheresoftware.b4a.BA.Permissions;
 import anywheresoftware.b4a.BA.ShortName;
 import anywheresoftware.b4a.BA.Version;
 import anywheresoftware.b4a.BA.Author;
-import anywheresoftware.b4a.keywords.Common;
 
 @Author("AskQuickly")
-@Version(1.1f)
+@Version(1.0f)
 @Permissions(values = {"android.permission.INTERNET"})
 @DependsOn(values = {"okhttp-3.9.1","okio-1.13.0"})
 @ShortName("SSLPins")
